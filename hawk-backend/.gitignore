@@ -1,0 +1,39 @@
+*/config/database.php
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/_display/*
+tests/TestCase.php
+tests/_support/_bootstrap.php
+
+# IDE
+.idea/
+.vscode/
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.swp
+*.swo
+*~
+.env
+.env.example
+composer.lock
+vendor/
+writable/
+node_modules/
+
+# dotenv
+.env.backup
+.env.production.local
+.env.local
+.env.*.local
+
+# Log files
+*.log
